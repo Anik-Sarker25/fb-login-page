@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    float: left;
+    background: #425F9B;
+    font-family: tahoma;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.logo-part {
+    width: 30%;
+    float: left;
+}
+.logo-part a {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 110px;
+
+}
+.login-part input[type="text"],
+.login-part input[type="password"] {
+    display: block;
+    margin: 0 20px 5px 0;
+    font-size: 17px;
+    border: 2px solid #6c6e6e;
+}
+.login-part {
+    width: 70%;
+    overflow: hidden;
+}
+.login-part .user-area {
+    float: left;
+}
+.login-part .password-area {
+    overflow: hidden;
+    float: left;
+}
+.login-part .submit-area {
+    overflow: hidden;
+    float: left;
+}
+.login-part label {
+     margin: 20px 0 5px 0;
+     display: inline-block;
+     overflow: hidden;
+     color: white;
+}
+.login-part label:hover {
+    cursor: pointer;
+}
+.login-part label:last-child {
+    margin: 0;
+    color: #8191c4;
+}
+.login-part input[type="checkbox"] {
+    margin: 0 0 15px 0;
+}
+.password-area a {
+    color: #8191c4;
+    text-decoration: none;
+}
+.password-area a:hover {
+    text-decoration: underline;
+}
+.login-part input[type="submit"] {
+    margin: 47px 0 20px 0;
+    background: #3A579C;
+    color: white;
+    padding: 1px 5px;
+    font-weight: bold;
+}
+.login-part form {
+    float: right;
+}
+
+/* =====main area==== */
+main {
+    width: 100%;
+    overflow: hidden;
+    font-family: tahoma;
+    background: linear-gradient(#ffffff, #E5E8F1);
+}
+.left-side {
+    width: 50%;
+    float: left;
+    margin-right: 10%;
+}
+.left-side h1 {
+    font-size: 26px;
+    color: #1f4567;
+    margin-top: 20px;
+}
+.right-side {
+    width: 40%;
+    overflow: hidden;
+}
+.right-side .heading {
+    font-size: 40px;
+    margin: 35px 0 15px 0;
+    color: rgb(66, 58, 58);
+}
+.right-side .info {
+    font-size: 19px;
+    margin: 10px 0 20px 0;
+}
+.right-side input[type="text"],
+.right-side input[type="password"] {
+    width: 100%;
+    font-size: 20px;
+    padding: 8px;
+    margin: 7px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(126, 126, 163);
+}
+
+.right-side input:nth-of-type(1) {
+    width: 48%;
+    margin-right: 3%;
+}
+.right-side input:nth-of-type(2) {
+    width: 48%;
+}
+.birthday {
+    font-size: 20px;
+    margin: 15px 0 10px 0;
+    color: #1f4567;
+    font-weight: 600;
+}
+.birthday-part {
+    overflow: hidden;
+    margin-bottom: 17px ;
+}
+.birthday-part select {
+    padding: 8px 10px;
+    font-weight: bold;
+    border: 1px solid rgb(126, 126, 163);
+    float: left;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.birthday-part select:last-of-type {
+    margin-right: 20px;
+}
+.right-side a {
+    text-decoration: none;
+    font-size: 16px;
+}
+.right-side a:hover {
+    text-decoration: underline;
+}
+.right-side input[type="radio"] {
+    margin-left: 8px ;
+}
+.right-side label[for="female"] {
+    font-size: 20px;
+}
+.right-side label[for="male"] {
+    font-size: 20px;
+}
+.right-side .page {
+    margin: 20px 0;
+    color: #757590;
+    font-size: 14px;
+}
+.right-side input[type="submit"] {
+    color: white;
+    background: linear-gradient(rgb(101, 230, 101),rgb(104, 141, 104));
+    padding: 5px 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.last-p {
+    margin: 20px 0 30px 0;
+    color: #757590;
+}
+.last-p a {
+    font-weight: bold;
+}
+/* ==========footer========== */
+footer {
+    font-size: 14px;
+}
+.upper-series {
+    overflow: hidden;
+    margin: 15px 0;
+}
+.upper-series ul li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.upper-series li a {
+    text-decoration: none;
+    color: #C4C6C8;
+    
+}
+.upper-series li:last-child {
+    background-color: #EBEDF0;
+}
+.down-series {
+    overflow: hidden;
+    margin: 15px 0 30px 0;
+}
+.down-series ul {
+    width: 70%;
+}
+.down-series ul li {
+    list-style: none;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+.down-series li a {
+    text-decoration: none;
+    color: #C4C6C8;
+}
+.reserved {
+    color: #C4C6C8;
+    margin-bottom: 20px;
+}
+
+/* ======media Queary======== */
+@media all and (max-width: 1150px) {
+    /* ==============main part========== */
+    .left-side {
+        width: 100%;
+        float: none;
+    }
+    .right-side {
+        width: 100%;
+        float: none;
+    }
+    .left-side h1 {
+        text-align: center;
+        margin: 30px 0;
+    }
+    a img {
+        width: 100%;
+    }
+    /* ===========footer part=========== */
+    .upper-series ul{
+        width: 100%;
+    }
+    .down-series ul {
+        width: 100%;
+    }
+
+}
+@media all and (max-width: 830px) {
+    /* ============header part============== */
+    .logo-part {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+    .login-part {
+         width: 100%;
+    }
+    .login-part form {
+        float: none;
+        width: 528px;
+        margin: auto;
+    }
+    /* ========================main part=================== */
+    .left-side {
+        width: 100%;
+        float: none;
+    }
+    .right-side {
+        width: 100%;
+        float: none;
+    }
+    .left-side h1 {
+        text-align: center;
+        margin: 30px 0;
+    }
+    a img {
+        width: 100%;
+    }
+    
+
+}
+@media all and (max-width: 590px) {
+    /* ============header part============ */
+    .logo-part {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+    .login-part .user-area {
+        float: none;
+    }
+    .login-part .password-area {
+        float: none;
+    }
+    .login-part .submit-area {
+        float: none;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .login-part .submit-area input {
+        padding: 8px 40px;
+        border-radius: 5px;
+    }
+    .login-part input[type="text"],
+    .login-part input[type="password"] {
+        width: 100%;
+    }
+    /* ===========main part=========== */
+    .left-side {
+        width: 100%;
+        float: none;
+    }
+    .right-side {
+        width: 100%;
+        float: none;
+    }
+    .left-side h1 {
+        text-align: center;
+        margin: 30px 0;
+    }
+    a img {
+        width: 100%;
+    }
+    .birthday-part select{
+        float: none;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .page {
+        display: block;
+        width: 100%;
+    }
+    .right-side input:nth-of-type(1),
+    .right-side input:nth-of-type(2) {
+        width: 100%;
+    }
+
+}
